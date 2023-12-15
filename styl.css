@@ -2,6 +2,7 @@ body{
     margin: 0px;
 }
 
+
 li {
     float: right;
 }
@@ -37,4 +38,16 @@ header ul{
 
 .logo {
     max-width: 105px;
+}
+
+main{
+    min-height: calc(100vh - 250px - 50px);
+    margin: auto;
+    padding: 25px;
+}
+
+footer{
+    padding: 25px;
+    background-color: #916e2c;
+    height: 75px;
 }
