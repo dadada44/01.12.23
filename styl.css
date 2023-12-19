@@ -47,7 +47,31 @@ main{
 }
 
 footer{
-    padding: 25px;
     background-color: #916e2c;
-    height: 75px;
+    display: flex;
+    justify-content: center;
 }
+
+footer .wrapper{
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    padding: 36px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+svg{
+    transition: .3s ease;
+}
+
+svg:hover{
+    fill: rgb(62, 34, 14);
+
+}
+
